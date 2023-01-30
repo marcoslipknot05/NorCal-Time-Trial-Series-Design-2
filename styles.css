@@ -16,12 +16,18 @@
   body {
     background-color: #F5CF8E; /* Yellow */
   }
+  .logo {
+    left: 650px;
+  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
     background-color: #B2D6FF; /* Blue */
+  }
+  .logo {
+    left: 1500px;
   }
 }
 
@@ -95,7 +101,9 @@ body {
   }
 
   .list {
-    height: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,3 +117,43 @@ body {
     color: rgb(0, 255, 242);
   }
 
+  .logo {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 78px;
+    border: 3px solid #5995DA;
+    width: 126px;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+
+  article {
+    position: relative;
+    bottom: 100px;
+  }
+
+  .contact-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 155px;
+    bottom: 100px;
+  }
+
+  .about-container {
+  position: relative;
+  left: 155px;
+  bottom: 100px;
+  }
+
+  .about-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
